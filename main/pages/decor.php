@@ -32,29 +32,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 main-navi-2" style="margin-left: 12px;">
-                    <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Букеты</p></a>
+                <?php
+                for($i=0; $i<3; $i++):
+                ?>
+                <div class="col-lg-3 flowers" style="margin-left: 12px;">
+                    <div class="category-case" style="">
+                        <img src="../imgs/decor/<?php echo($i+1)?>.png" alt="">
+                        <a href="#"><p style="margin-top: 4%;"></p>Декор <?php  echo ($i+1) ?></a>
+                        <small>1499 ₽</small>
+                        <div class="form-cont">
+                            <form action="check.php" method="post">
+                                <input type="email" name="email" placeholder="Введите ваш E-Mail " class="form-control" >
+                                <input type="phone" name="phone" placeholder="Введите ваш номер телефона" class="form-control">
+                                <button type="submit" name="send" class="send">Оформить заказ</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 main-navi-3" style="margin-left: 12px;">
-                    <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Декор</p></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 main-navi-4" style="margin-left: 12px;">
-                    <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Принадлежности для ухода за цветами</p></a>
-                    </div>
-                </div>
-                
+                <?php endfor; ?>
                 <div class="col-lg-3 main-navi" style="margin-left: -36px; margin-top: 20px;">
-                </div>
-
-                <div class="col-lg-3 main-navi-5" style="margin-left: 12px;">
-                    <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Подарки и сувениры</p></a>
-                    </div>
                 </div>    
             </div>
         </div>

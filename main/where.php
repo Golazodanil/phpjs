@@ -16,7 +16,6 @@
         <div id="map" style="width: 101%; height: 800px"></div>
     </div>
     
-    <header><? include './footer.php' ?></header>
 
 
     <script type="text/javascript">

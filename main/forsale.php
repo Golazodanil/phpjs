@@ -34,17 +34,17 @@
                 </div>
                 <div class="col-lg-3 main-navi-2" style="margin-left: 12px;">
                     <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Букеты</p></a>
+                        <a href="pages/flowers.php"><p style="margin-top: 4%;">Букеты</p></a>
                     </div>
                 </div>
                 <div class="col-lg-3 main-navi-3" style="margin-left: 12px;">
                     <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Декор</p></a>
+                        <a href="pages/decor.php"><p style="margin-top: 4%;">Декор</p></a>
                     </div>
                 </div>
                 <div class="col-lg-3 main-navi-4" style="margin-left: 12px;">
                     <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Принадлежности для ухода за цветами</p></a>
+                        <a href="pages/care.php"><p style="margin-top: 4%;">Принадлежности для ухода за цветами</p></a>
                     </div>
                 </div>
                 
@@ -53,7 +53,7 @@
 
                 <div class="col-lg-3 main-navi-5" style="margin-left: 12px;">
                     <div class="category-case" style="margin-top: 120%;">
-                        <a href="#"><p style="margin-top: 4%;">Подарки и сувениры</p></a>
+                        <a href="pages/presents.php"><p style="margin-top: 4%;">Подарки и сувениры</p></a>
                     </div>
                 </div>    
             </div>

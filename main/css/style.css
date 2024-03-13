@@ -120,3 +120,20 @@ a:hover{
     color: rgb(255, 120, 120);
 }
 
+
+.form-cont input{
+    padding: 12px;
+}
+
+.send{
+    margin-top: 12px;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.form-control{
+    margin-top: 4px;
+}
+
+

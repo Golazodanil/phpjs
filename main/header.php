@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -32,9 +33,9 @@
     <div class="container-fluid nav-bar">
         <div class="container">
             <div class="row" style="padding: 23px;">
-                <div class="col-lg-1 nav"><a href="./forsale.php">Каталог</a></div>
-                <div class="col-lg-1 nav"><a href="./about.php">О нас</a></div>
-                <div class="col-lg-2 nav"><a href="./where.php">Где нас можно найти</a></div>
+                <div class="col-lg-1 nav"><a href="../forsale.php">Каталог</a></div>
+                <div class="col-lg-1 nav"><a href="../about.php">О нас</a></div>
+                <div class="col-lg-2 nav"><a href="../where.php">Где нас можно найти</a></div>
             </div>
         </div>
     </div>
